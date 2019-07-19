@@ -1,0 +1,95 @@
+{
+  "employees": [
+    {
+      "id": 3,
+      "name": "Zoe LeBlanc",
+      "phoneNumber": "555-555-5555",
+      "locationId": 1
+    },
+    {
+      "id": 4,
+      "name": "Bob Ross",
+      "phoneNumber": "454-343-3666",
+      "locationId": 1
+    },
+    {
+      "id": 5,
+      "name": "Tom File",
+      "phoneNumber": "555-555-5885",
+      "locationId": 2
+    },
+    {
+      "id": 6,
+      "name": "Statutory Grape",
+      "phoneNumber": "555-665-5555",
+      "locationId": 2
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "500 Circle Way"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "10101 Binary Court"
+    }
+  ],
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodles",
+      "breed": "Lab",
+      "employeeId": 5
+    },
+    {
+      "id": 6,
+      "name": "Checkers",
+      "breed": "Shitzu",
+      "employeeId": 4
+    },
+    {
+      "id": 8,
+      "name": "Mr Bean",
+      "breed": "Wiener Dog",
+      "employeeId": 3
+    },
+    {
+      "name": "Jose",
+      "breed": "Poodle",
+      "employeeId": 6,
+      "id": 9
+    }
+  ],
+  "owners": [
+    {
+      "id": 1,
+      "name": "phil",
+      "phoneNumber": "555-555-5555"
+    },
+    {
+      "id": 2,
+      "name": "bill",
+      "phoneNumber": "555-555-5556"
+    },
+    {
+      "id": 4,
+      "name": "randy",
+      "phoneNumber": "555-555-5558"
+    }
+  ],
+  "ownersFromAPI": [
+    {
+      "id": 1,
+      "ownerId": 1,
+      "animalId": 6
+    },
+    {
+      "id": 2,
+      "ownerId": 2,
+      "animalId": 6
+    }
+  ]
+}
