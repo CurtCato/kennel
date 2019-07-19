@@ -1,20 +1,28 @@
 {
   "employees": [
     {
-      "id": 1,
-      "name": "Jessica Younker"
-    },
-    {
-      "id": 2,
-      "name": "Jordan Nelson"
-    },
-    {
       "id": 3,
-      "name": "Zoe LeBlanc"
+      "name": "Zoe LeBlanc",
+      "phoneNumber": "555-555-5555",
+      "locationId": 1
     },
     {
       "id": 4,
-      "name": "Blaise Roberts"
+      "name": "Bob Ross",
+      "phoneNumber": "454-343-3666",
+      "locationId": 1
+    },
+    {
+      "id": 5,
+      "name": "Tom File",
+      "phoneNumber": "555-555-5885",
+      "locationId": 2
+    },
+    {
+      "id": 6,
+      "name": "Statutory Grape",
+      "phoneNumber": "555-665-5555",
+      "locationId": 2
     }
   ],
   "locations": [
@@ -32,27 +40,56 @@
   "animals": [
     {
       "id": 1,
-      "name": "Doodles"
-    },
-    {
-      "id": 2,
-      "name": "Jack"
-    },
-    {
-      "id": 3,
-      "name": "Angus"
-    },
-    {
-      "id": 4,
-      "name": "Henley"
-    },
-    {
-      "id": 5,
-      "name": "Derkins"
+      "name": "Doodles",
+      "breed": "Lab",
+      "employeeId": 5
     },
     {
       "id": 6,
-      "name": "Checkers"
+      "name": "Checkers",
+      "breed": "Shitzu",
+      "employeeId": 4
+    },
+    {
+      "id": 8,
+      "name": "Mr Bean",
+      "breed": "Wiener Dog",
+      "employeeId": 3
+    },
+    {
+      "name": "Jose",
+      "breed": "Poodle",
+      "employeeId": 6,
+      "id": 9
+    }
+  ],
+  "owners": [
+    {
+      "id": 1,
+      "name": "phil",
+      "phoneNumber": "555-555-5555"
+    },
+    {
+      "id": 2,
+      "name": "bill",
+      "phoneNumber": "555-555-5556"
+    },
+    {
+      "id": 4,
+      "name": "randy",
+      "phoneNumber": "555-555-5558"
+    }
+  ],
+  "ownersFromAPI": [
+    {
+      "id": 1,
+      "ownerId": 1,
+      "animalId": 6
+    },
+    {
+      "id": 2,
+      "ownerId": 2,
+      "animalId": 6
     }
   ]
 }
